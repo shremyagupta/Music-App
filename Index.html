@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Vibe 🎶</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .player {
+      background: white;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      text-align: center;
+      margin-top: 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Music Vibe 🎶</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Browse</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Playlists</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1 class="display-4 fw-bold">Feel the Music</h1>
+  <p class="lead">Stream your favorite songs anytime, anywhere!</p>
+  <a href="#" class="btn btn-primary btn-lg mt-3">Get Started</a>
+</section>
+
+<!-- Top Playlists -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Top Playlists</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="card1img.jpeg" class="card-img-top" alt="Playlist 1">
+        <div class="card-body">
+          <h5 class="card-title">Chill Vibes</h5>
+          <p class="card-text">Relax with soft beats.</p>
+          <a href="#" class="btn btn-outline-primary">Play</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="card3img.jpeg" class="card-img-top" alt="Playlist 2">
+        <div class="card-body">
+          <h5 class="card-title">Party Hits</h5>
+          <p class="card-text">Get the party started!</p>
+          <a href="#" class="btn btn-outline-primary">Play</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="card4img.jpeg" class="card-img-top" alt="Playlist 3">
+        <div class="card-body">
+          <h5 class="card-title">Rock Anthems</h5>
+          <p class="card-text">Rock your day with classics!</p>
+          <a href="#" class="btn btn-outline-primary">Play</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Music Player UI -->
+<div class="container player">
+  <h3>Now Playing</h3>
+  <p class="mb-4">Song Name - Artist</p>
+  <div class="d-flex justify-content-center align-items-center mb-3">
+    <button class="btn btn-outline-dark me-3"><i class="bi bi-skip-backward-fill"></i></button>
+    <button class="btn btn-primary btn-lg"><i class="bi bi-play-fill"></i></button>
+    <button class="btn btn-outline-dark ms-3"><i class="bi bi-skip-forward-fill"></i></button>
+  </div>
+  <div class="progress" style="height: 5px;">
+    <div class="progress-bar bg-primary" style="width: 40%;"></div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>Made with ❤️ by Shremya</p>
+  <p>
+    <a href="#"><i class="bi bi-instagram"></i></a> 
+    <a href="#"><i class="bi bi-twitter"></i></a> 
+    <a href="#"><i class="bi bi-facebook"></i></a>
+  </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
